@@ -1,6 +1,5 @@
-import type { Metadata } from "next";
-
-import "./globals.css";
+import { Metadata } from "next";
+import "../../../../app/globals.css";
 
 export const metadata: Metadata = {
   title: "ChatBotPro",
@@ -9,14 +8,13 @@ export const metadata: Metadata = {
     icon: "/favicon.ico", // 👈 browser tab
   },
 };
-
-export default function RootLayout({
+export default function LoginLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html className="bg-[#fbfbfd]" lang="en">
+    <html lang="en" className="bg-[#efeff7]">
       <body>{children}</body>
     </html>
   );
