@@ -12,7 +12,7 @@ A full-stack SaaS AI chatbot platform that allows users to create, customize, an
 - 📊 Analytics dashboard (chat tracking & usage stats)
 - 💬 Embeddable chat widget
 - 🧑‍💼 Admin panel for managing users & sessions
-- 💳 Stripe integration (optional billing)
+
 
 ---
 
@@ -22,7 +22,7 @@ A full-stack SaaS AI chatbot platform that allows users to create, customize, an
 - Backend: Next.js API Routes  
 - Database: Firebase Firestore  
 - Auth: Firebase Authentication  
-- AI: OpenAI API  
+- AI: Groq Api
 - Deployment: Vercel  
 
 ---
